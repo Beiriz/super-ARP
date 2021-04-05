@@ -32,6 +32,15 @@ Resultado (00:00:00:00:00:00 é apenas ilustrativo):
 00:00:00:00:00:00 => DIGIBRAS INDUSTRIA DO BRASILS/A
 00:00:00:00:00:00 => Hangzhou Hikvision Digital Technology Co.,Ltd.
 ```
+## Dica! ## 
+
+Para popular a sua tabela arp , a não ser que o host seja o gateway da rede, rode o comando nmap abaixo (no exemplo a rede é 192.168.0.0/24):
+
+
+```
+nmap -sP -PE 192.168.0.0/24
+
+```
 
 ------------------------------------------------------------------------
 ## LICENÇA
